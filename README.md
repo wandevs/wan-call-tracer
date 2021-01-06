@@ -18,9 +18,9 @@ async function main() {
   
   let txHash = '0x695bb83db0a836557ece3b231b22d95cd4a2a0e91592ad7c561b6ea2a7754655';
 
-  let ret = await wanCallTracer(
-      txHash, 
-      'http://192.168.1.2:8545');
+  let rpcHttpUrl = 'http://192.168.1.2:8545';
+
+  let ret = await wanCallTracer(txHash, rpcHttpUrl);
 
   console.log(ret);
 }
