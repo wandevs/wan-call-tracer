@@ -1,11 +1,12 @@
 {
   "name": "@wandevs/wan-call-tracer",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "description": "Wan-call-tracer use to monitor internal transaction of wan.",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "bignumber.js": "^9.0.1",
     "web3": "^1.3.1"
   },
-  "access": "public"
+  "repository": "https://github.com/wandevs/wan-call-tracer"
 }
