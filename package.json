@@ -1,6 +1,6 @@
 {
   "name": "@wandevs/wan-call-tracer",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Wan-call-tracer use to monitor internal transaction of wan.",
   "main": "index.js",
   "license": "MIT",
