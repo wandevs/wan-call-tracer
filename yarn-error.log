@@ -28,14 +28,17 @@ Trace:
 
 npm manifest: 
   {
-    "name": "wan-call-tracer",
-    "version": "1.0.0",
+    "name": "@wandevs/wan-call-tracer",
+    "version": "1.1.0",
+    "description": "Wan-call-tracer use to monitor internal transaction of wan.",
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
+      "base64-js": "^1.5.1",
       "bignumber.js": "^9.0.1",
       "web3": "^1.3.1"
-    }
+    },
+    "repository": "https://github.com/wandevs/wan-call-tracer"
   }
 
 yarn manifest: 
@@ -347,7 +350,7 @@ Lockfile:
     dependencies:
       safe-buffer "^5.0.1"
   
-  base64-js@^1.3.1:
+  base64-js@^1.3.1, base64-js@^1.5.1:
     version "1.5.1"
     resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
     integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==

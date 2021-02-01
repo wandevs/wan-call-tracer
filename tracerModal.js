@@ -4,8 +4,7 @@ var code = {
         var calls = {};
         if (log.op.toString()==="CALL") {
             calls.from = log.contract.address();
-            // calls.to = log.stack.peek(1).Bytes();
-            calls.to = log.contract.caller();
+            calls.to = log.stack.peek(1).Bytes();
             calls.value = log.stack.peek(2).String();
             if (calls.value !== '0') {
                 this.callstack.push(calls);
